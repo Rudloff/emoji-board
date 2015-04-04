@@ -16,6 +16,7 @@ require_once 'vendor/autoload.php';
 <html>
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>EmojiBoard</title>
     <link rel="stylesheet"
         href="bower_components/jquery-mobile-bower/css/jquery.mobile-1.4.5.min.css"
