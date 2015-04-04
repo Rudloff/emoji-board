@@ -29,6 +29,9 @@ require_once 'vendor/autoload.php';
 <body data-role="page">
     <header data-role="header">
         <h1>EmojiBoard</h1>
+        <a data-mini="true" class="ui-btn-right ui-btn"
+            href="https://github.com/Rudloff/emoji-board/tree/master"
+            title="EmojiBoard on GitHub" target="_blank">Get the code</a>
     </header>
     <main data-role="content">
         <ul data-role="listview" data-filter="true">
