@@ -13,7 +13,7 @@
 require_once 'vendor/autoload.php';
 ?>
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -26,6 +26,7 @@ require_once 'vendor/autoload.php';
     <script
         src="bower_components/jquery-mobile-bower/js/jquery.mobile-1.4.5.min.js">
     </script>
+    <meta name="description" content="Simple emoji search list" />
 </head>
 <body data-role="page">
     <header data-role="header">
