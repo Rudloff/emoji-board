@@ -4,24 +4,27 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bdcf58a6ae2421d94a89520027c76c7b",
+    "hash": "9105e4ded6489bab3174054f9332e773",
     "packages": [
         {
             "name": "emojione/emojione",
-            "version": "v1.2.5",
+            "version": "v1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ranks/emojione.git",
-                "reference": "818886cf676f9769be97947e230b218ce408bc54"
+                "reference": "81373eda34614389dde82aa79ffa7f137b516423"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ranks/emojione/zipball/818886cf676f9769be97947e230b218ce408bc54",
-                "reference": "818886cf676f9769be97947e230b218ce408bc54",
+                "url": "https://api.github.com/repos/Ranks/emojione/zipball/81373eda34614389dde82aa79ffa7f137b516423",
+                "reference": "81373eda34614389dde82aa79ffa7f137b516423",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.6"
             },
             "type": "library",
             "autoload": {
@@ -42,7 +45,7 @@
                 "smilies",
                 "unicode"
             ],
-            "time": "2014-10-21 18:10:52"
+            "time": "2015-06-05 19:30:48"
         }
     ],
     "packages-dev": [],
