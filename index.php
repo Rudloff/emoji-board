@@ -42,9 +42,12 @@ require_once 'vendor/autoload.php';
                 file_get_contents('vendor/emojione/emojione/emoji.json'), true
             );
             foreach ($emojis as $emoji) {
-                echo '<li>&#x'.str_replace(
+                echo '<li>
+                    <h2>&#x'.str_replace(
                     '-', ';&#x', $emoji['unicode']
-                ).'; - '.$emoji['name'].'</li>';
+                ).'; - '.$emoji['name'].'</h2>
+                <p>'.implode(', ', $emoji['keywords']).'</p>
+                </li>';
             }
             ?>
         </ul>
