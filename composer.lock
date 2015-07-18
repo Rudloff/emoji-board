@@ -1,23 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9105e4ded6489bab3174054f9332e773",
+    "hash": "7b1562057e7608920cb23f76e5adc204",
     "packages": [
         {
             "name": "emojione/emojione",
-            "version": "v1.4.1",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ranks/emojione.git",
-                "reference": "81373eda34614389dde82aa79ffa7f137b516423"
+                "reference": "4e995d819d47908f8777237a08df4702e5ac7d01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ranks/emojione/zipball/81373eda34614389dde82aa79ffa7f137b516423",
-                "reference": "81373eda34614389dde82aa79ffa7f137b516423",
+                "url": "https://api.github.com/repos/Ranks/emojione/zipball/4e995d819d47908f8777237a08df4702e5ac7d01",
+                "reference": "4e995d819d47908f8777237a08df4702e5ac7d01",
                 "shasum": ""
             },
             "require": {
@@ -33,6 +33,9 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "(CC-BY-SA-4.0 and MIT)"
+            ],
             "description": "Emoji One is a complete set of emojis designed for the web. It includes libraries to easily convert unicode characters to shortnames (:smile:) and shortnames to our custom emoji images. PNG and SVG formats provided for the emoji images.",
             "homepage": "http://www.emojione.com",
             "keywords": [
@@ -45,7 +48,7 @@
                 "smilies",
                 "unicode"
             ],
-            "time": "2015-06-05 19:30:48"
+            "time": "2015-07-17 08:28:49"
         }
     ],
     "packages-dev": [],

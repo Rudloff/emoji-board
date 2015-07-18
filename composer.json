@@ -1,5 +1,8 @@
 {
     "require": {
-        "emojione/emojione": "~1.4.1"
-    }
+        "emojione/emojione": "~1.5.0"
+    },
+    "name": "rudloff/emoji-board",
+    "license": "GPL-3.0",
+    "description": "Simple emoji search list"
 }
