@@ -5,19 +5,20 @@
         "This file is @generated automatically"
     ],
     "hash": "7b1562057e7608920cb23f76e5adc204",
+    "content-hash": "c27b0d2f54143eb893710a93f6f08f47",
     "packages": [
         {
             "name": "emojione/emojione",
-            "version": "v1.5.0",
+            "version": "v1.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ranks/emojione.git",
-                "reference": "4e995d819d47908f8777237a08df4702e5ac7d01"
+                "reference": "9c4c2a82307e4aa171f5ee1657521041c8049d9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ranks/emojione/zipball/4e995d819d47908f8777237a08df4702e5ac7d01",
-                "reference": "4e995d819d47908f8777237a08df4702e5ac7d01",
+                "url": "https://api.github.com/repos/Ranks/emojione/zipball/9c4c2a82307e4aa171f5ee1657521041c8049d9d",
+                "reference": "9c4c2a82307e4aa171f5ee1657521041c8049d9d",
                 "shasum": ""
             },
             "require": {
@@ -48,7 +49,7 @@
                 "smilies",
                 "unicode"
             ],
-            "time": "2015-07-17 08:28:49"
+            "time": "2015-10-30 04:41:37"
         }
     ],
     "packages-dev": [],
