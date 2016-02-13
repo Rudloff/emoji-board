@@ -1,8 +1,19 @@
 {
-    "require": {
-        "emojione/emojione": "~2.0.0"
-    },
-    "name": "rudloff/emoji-board",
-    "license": "GPL-3.0",
-    "description": "Simple emoji search list"
+	"require": {
+		"emojione/emojione": "~2.1.0"
+	},
+	"name": "rudloff/emoji-board",
+	"license": "GPL-3.0",
+	"description": "Simple emoji search list",
+	"homepage": "https://emoji.netlib.re/",
+	"type": "project",
+	"authors": [{
+		"name": "Pierre Rudloff",
+		"email": "contact@rudloff.pro",
+		"homepage": "https://www.rudloff.pro/",
+		"role": "Developer"
+	}],
+	"support": {
+		"issues": "https://github.com/Rudloff/emoji-board/issues"
+	}
 }

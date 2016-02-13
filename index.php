@@ -32,7 +32,7 @@ require_once 'vendor/autoload.php';
     <header data-role="header">
         <h1>EmojiBoard</h1>
         <a data-mini="true" class="ui-btn-right ui-btn"
-            href="https://github.com/Rudloff/emoji-board/tree/master"
+            href="https://github.com/Rudloff/emoji-board"
             title="EmojiBoard on GitHub" target="_blank">Get the code</a>
     </header>
     <main data-role="content">

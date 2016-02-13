@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "20a9656a0880c025b9e331ef044dbf65",
-    "content-hash": "22c3029e2088409f2ed32c236bc78c78",
+    "hash": "6adbe149c53682e03f626863c1c5e406",
+    "content-hash": "c5308072337b1c12d267ede8d9d85758",
     "packages": [
         {
             "name": "emojione/emojione",
-            "version": "v2.0.0",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ranks/emojione.git",
-                "reference": "6fb30b7ca3c80bba70dab5b206df59b088720aca"
+                "reference": "fd4bb7a26a39e93d0cb4ed90934e9e3f73ebca4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ranks/emojione/zipball/6fb30b7ca3c80bba70dab5b206df59b088720aca",
-                "reference": "6fb30b7ca3c80bba70dab5b206df59b088720aca",
+                "url": "https://api.github.com/repos/Ranks/emojione/zipball/fd4bb7a26a39e93d0cb4ed90934e9e3f73ebca4b",
+                "reference": "fd4bb7a26a39e93d0cb4ed90934e9e3f73ebca4b",
                 "shasum": ""
             },
             "require": {
@@ -35,7 +35,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "(CC-BY-SA-4.0 and MIT)"
+                "(CC-BY-4.0 and MIT)"
             ],
             "description": "Emoji One is a complete set of emojis designed for the web. It includes libraries to easily convert unicode characters to shortnames (:smile:) and shortnames to our custom emoji images. PNG and SVG formats provided for the emoji images.",
             "homepage": "http://www.emojione.com",
@@ -49,7 +49,7 @@
                 "smilies",
                 "unicode"
             ],
-            "time": "2015-12-17 18:02:26"
+            "time": "2016-01-29 19:30:25"
         }
     ],
     "packages-dev": [],
