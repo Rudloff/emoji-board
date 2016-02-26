@@ -1,0 +1,13 @@
+{
+	"name": "EmojiBoard",
+	"display": "standalone",
+	"icons": [{
+		"src": "favicon.png",
+		"sizes": "32x32",
+		"type": "image/png"
+	}],
+	"lang": "en",
+	"start_url": "./index.php",
+	"theme_color": "#E9E9E9",
+	"background_color": "#FFFFFF"
+}
