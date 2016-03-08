@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6adbe149c53682e03f626863c1c5e406",
+    "hash": "609821caa1dc7e0ef7d7b2695454a589",
     "content-hash": "c5308072337b1c12d267ede8d9d85758",
     "packages": [
         {
             "name": "emojione/emojione",
-            "version": "v2.1.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ranks/emojione.git",
-                "reference": "fd4bb7a26a39e93d0cb4ed90934e9e3f73ebca4b"
+                "reference": "5f776924f4f649b064e030a4cd597ecf4899fe46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ranks/emojione/zipball/fd4bb7a26a39e93d0cb4ed90934e9e3f73ebca4b",
-                "reference": "fd4bb7a26a39e93d0cb4ed90934e9e3f73ebca4b",
+                "url": "https://api.github.com/repos/Ranks/emojione/zipball/5f776924f4f649b064e030a4cd597ecf4899fe46",
+                "reference": "5f776924f4f649b064e030a4cd597ecf4899fe46",
                 "shasum": ""
             },
             "require": {
@@ -49,7 +49,7 @@
                 "smilies",
                 "unicode"
             ],
-            "time": "2016-01-29 19:30:25"
+            "time": "2016-02-24 01:31:40"
         }
     ],
     "packages-dev": [],
