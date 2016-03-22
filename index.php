@@ -22,10 +22,6 @@ require_once 'vendor/autoload.php';
         href="bower_components/jquery-mobile-bower/css/jquery.mobile-1.4.5.min.css"
         />
     <link rel="icon" href="favicon.png" />
-    <script src="bower_components/jquery/jquery.min.js"></script>
-    <script
-        src="bower_components/jquery-mobile-bower/js/jquery.mobile-1.4.5.min.js">
-    </script>
     <meta name="description" content="Simple emoji search list" />
     <meta name="theme-color" content="#E9E9E9">
     <link rel="manifest" href="manifest.json" />
@@ -54,5 +50,9 @@ require_once 'vendor/autoload.php';
             ?>
         </ul>
     </main>
+    <script src="bower_components/jquery/jquery.min.js"></script>
+    <script
+        src="bower_components/jquery-mobile-bower/js/jquery.mobile-1.4.5.min.js">
+    </script>
 </body>
 </html>
