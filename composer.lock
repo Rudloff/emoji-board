@@ -9,23 +9,23 @@
     "packages": [
         {
             "name": "emojione/emojione",
-            "version": "v2.1.1",
+            "version": "v2.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ranks/emojione.git",
-                "reference": "5f776924f4f649b064e030a4cd597ecf4899fe46"
+                "reference": "c3fea224479cea82e87125f41a097d52a58d281b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ranks/emojione/zipball/5f776924f4f649b064e030a4cd597ecf4899fe46",
-                "reference": "5f776924f4f649b064e030a4cd597ecf4899fe46",
+                "url": "https://api.github.com/repos/Ranks/emojione/zipball/c3fea224479cea82e87125f41a097d52a58d281b",
+                "reference": "c3fea224479cea82e87125f41a097d52a58d281b",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.6"
+                "phpunit/phpunit": "~4.6 || ~5.0"
             },
             "type": "library",
             "autoload": {
@@ -49,7 +49,7 @@
                 "smilies",
                 "unicode"
             ],
-            "time": "2016-02-24 01:31:40"
+            "time": "2016-04-05 21:56:05"
         }
     ],
     "packages-dev": [],
