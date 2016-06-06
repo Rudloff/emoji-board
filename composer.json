@@ -1,6 +1,6 @@
 {
 	"require": {
-		"emojione/emojione": "~2.1.0"
+		"emojione/emojione": "~2.2.0"
 	},
 	"name": "rudloff/emoji-board",
 	"license": "GPL-3.0",
