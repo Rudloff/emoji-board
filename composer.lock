@@ -9,16 +9,16 @@
     "packages": [
         {
             "name": "emojione/emojione",
-            "version": "v2.2.0",
+            "version": "v2.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ranks/emojione.git",
-                "reference": "c2b616b19107df28c055aca002dd4db1720f6ecf"
+                "reference": "48ab43b4af82f752a84065913ee6b47b01398b86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ranks/emojione/zipball/c2b616b19107df28c055aca002dd4db1720f6ecf",
-                "reference": "c2b616b19107df28c055aca002dd4db1720f6ecf",
+                "url": "https://api.github.com/repos/Ranks/emojione/zipball/48ab43b4af82f752a84065913ee6b47b01398b86",
+                "reference": "48ab43b4af82f752a84065913ee6b47b01398b86",
                 "shasum": ""
             },
             "require": {
@@ -49,7 +49,7 @@
                 "smilies",
                 "unicode"
             ],
-            "time": "2016-05-31 18:51:24"
+            "time": "2016-06-28 23:34:35"
         }
     ],
     "packages-dev": [],
