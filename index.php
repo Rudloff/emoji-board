@@ -25,6 +25,13 @@ require_once 'vendor/autoload.php';
     <meta name="description" content="Simple emoji search list" />
     <meta name="theme-color" content="#E9E9E9">
     <link rel="manifest" href="manifest.json" />
+    <style>
+        .emoji {
+            font-size:x-large;
+            vertical-align: middle;
+            padding-right: 0.5ex;
+        }
+    </style>
 </head>
 <body data-role="page">
     <header data-role="header">
@@ -41,9 +48,9 @@ require_once 'vendor/autoload.php';
             );
             foreach ($emojis as $emoji) {
                 echo '<li>
-                    <h2>&#x'.str_replace(
+                    <h2><span class="emoji">&#x'.str_replace(
                     '-', ';&#x', $emoji['unicode']
-                ).'; - '.$emoji['name'].'</h2>
+                ).';</span> '.$emoji['name'].'</h2>
                 <p>'.implode(', ', $emoji['keywords']).'</p>
                 </li>';
             }
