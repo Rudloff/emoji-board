@@ -33,13 +33,17 @@ require_once 'vendor/autoload.php';
         <ul data-role="listview" data-filter="true">
             <?php
             $emojis = json_decode(
-                file_get_contents('vendor/emojione/emojione/emoji.json'), true
+                file_get_contents('vendor/emojione/emojione/emoji.json'),
+                true
             );
             foreach ($emojis as $emoji) {
                 echo '<li>
-                    <h2><span class="emoji">&#x'.str_replace(
-                    '-', ';&#x', $emoji['unicode']
-                ).';</span> '.$emoji['name'].'</h2>
+                    <h2><span class="emoji">&#x'.
+                    str_replace(
+                        '-',
+                        ';&#x',
+                        $emoji['unicode']
+                    ).';</span> '.$emoji['name'].'</h2>
                 <p>'.implode(', ', $emoji['keywords']).'</p>
                 </li>';
             }
