@@ -1,15 +1,4 @@
 <?php
-/**
- * Simple emoji search list
- *
- * PHP version 5.4
- *
- * @category Index
- * @package  EmojiBoard
- * @author   Pierre Rudloff <contact@rudloff.pro>
- * @license  GPL http://www.gnu.org/licenses/gpl.html
- * @link     https://github.com/Rudloff/emoji-board
- * */
 require_once 'vendor/autoload.php';
 ?>
 <!DOCTYPE HTML>
