@@ -1,6 +1,7 @@
 ExpiresActive On
 ExpiresByType text/css "access plus 1 month"
 ExpiresByType image/gif "access plus 1 month"
+ExpiresByType image/png "access plus 1 month"
 ExpiresByType application/javascript "access plus 1 month"
 
 AddOutputFilterByType DEFLATE text/css text/html application/javascript
