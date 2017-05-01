@@ -1,5 +1,5 @@
 <?php
-require_once 'vendor/autoload.php';
+require_once __DIR__.'/vendor/autoload.php';
 ?>
 <!DOCTYPE HTML>
 <html lang="en">
@@ -33,7 +33,7 @@ require_once 'vendor/autoload.php';
         <ul data-role="listview" data-filter="true">
             <?php
             $emojis = json_decode(
-                file_get_contents('vendor/emojione/emojione/emoji.json')
+                file_get_contents(__DIR__.'/vendor/emojione/emojione/emoji.json')
             );
             foreach ($emojis as $emoji) {
                 echo '<li>
