@@ -1,17 +1,5 @@
 <?php
-/**
- * Simple emoji search list.
- *
- * PHP version 5.4
- *
- * @category Index
- *
- * @author   Pierre Rudloff <contact@rudloff.pro>
- * @license  GPL http://www.gnu.org/licenses/gpl.html
- *
- * @link     https://github.com/Rudloff/emoji-board
- * */
-require_once 'vendor/autoload.php';
+require_once __DIR__.'/vendor/autoload.php';
 ?>
 <!DOCTYPE HTML>
 <html lang="en">
@@ -45,14 +33,17 @@ require_once 'vendor/autoload.php';
         <ul data-role="listview" data-filter="true">
             <?php
             $emojis = json_decode(
-                file_get_contents('vendor/emojione/emojione/emoji.json'), true
+                file_get_contents(__DIR__.'/vendor/emojione/emojione/emoji.json')
             );
             foreach ($emojis as $emoji) {
                 echo '<li>
-                    <h2><span class="emoji">&#x'.str_replace(
-                    '-', ';&#x', $emoji['unicode']
-                ).';</span> '.$emoji['name'].'</h2>
-                <p>'.implode(', ', $emoji['keywords']).'</p>
+                    <h2><span class="emoji">&#x'.
+                    str_replace(
+                        '-',
+                        ';&#x',
+                        $emoji->code_points->output
+                    ).';</span> '.$emoji->name.'</h2>
+                <p>'.implode(', ', $emoji->keywords).'</p>
                 </li>';
             }
             ?>

@@ -1,6 +1,6 @@
 {
-    "name": "EmojiBoard",
-    "dependencies": {
-        "jquery-mobile-bower": "~1.4.5"
-    }
+  "name": "emojiboard",
+  "dependencies": {
+    "jquery-mobile-bower": "~1.4.5"
+  }
 }
