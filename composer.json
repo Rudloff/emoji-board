@@ -1,6 +1,9 @@
 {
   "require": {
-    "emojione/emojione": "~2.2.0"
+    "emojione/emojione": "~3.0.0"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "~3.2.0"
   },
   "name": "rudloff/emoji-board",
   "license": "GPL-3.0",
