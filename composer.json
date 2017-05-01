@@ -1,6 +1,6 @@
 {
   "require": {
-    "emojione/emojione": "~3.0.0"
+    "emojione/assets": "~3.0.0"
   },
   "require-dev": {
     "symfony/var-dumper": "~3.2.0"
