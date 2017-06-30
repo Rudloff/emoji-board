@@ -54,8 +54,7 @@ require_once __DIR__.'/vendor/autoload.php';
                     '-',
                     ';&#x',
                     $emoji->code_points->output
-                ).';';
-                ?>
+                ).';'; ?>
                 <li class="emoji-line">
                     <h2>
                         <span class="emoji"><?php echo $emojiCode; ?></span>
@@ -64,7 +63,8 @@ require_once __DIR__.'/vendor/autoload.php';
                     </h2>
                     <p><?php echo implode(', ', $emoji->keywords); ?></p>
                 </li>
-            <?php } ?>
+            <?php
+            } ?>
         </ul>
     </main>
     <script src="bower_components/jquery/jquery.min.js"></script>
