@@ -68,8 +68,8 @@ require_once __DIR__.'/vendor/autoload.php';
         </ul>
     </main>
     <script src="bower_components/jquery/jquery.min.js"></script>
-    <script
-        src="bower_components/jquery-mobile-bower/js/jquery.mobile-1.4.5.min.js">
-    </script>
+    <script src="bower_components/jquery-mobile-bower/js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="bower_components/clipboard/dist/clipboard.min.js"></script>
+    <script>new Clipboard('.copy-btn');</script>
 </body>
 </html>
