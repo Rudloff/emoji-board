@@ -59,7 +59,8 @@ require_once __DIR__.'/vendor/autoload.php';
                     <h2>
                         <span class="emoji"><?php echo $emojiCode; ?></span>
                         <?php echo $emoji->name; ?>
-                        <button class="ui-btn ui-btn-inline emoji-btn copy-btn" data-clipboard-text="<?php echo $emojiCode; ?>">Copy</button>
+                        <button class="ui-btn ui-btn-inline emoji-btn copy-btn"
+                            data-clipboard-text="<?php echo $emojiCode; ?>">Copy</button>
                     </h2>
                     <p><?php echo implode(', ', $emoji->keywords); ?></p>
                 </li>
