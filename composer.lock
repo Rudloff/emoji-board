@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1cc0f22320e4c44a5f5bdd8781198306",
-    "content-hash": "1159181e7ff6f8976c9a01d99935d3ac",
+    "hash": "4c44d494a54c2d059edec5272eb7b2e9",
+    "content-hash": "32362b63740636303f0cca525721c4e9",
     "packages": [
         {
             "name": "emojione/assets",
-            "version": "3.0.0",
+            "version": "3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/emojione/emojione-assets.git",
-                "reference": "76f72a30e0062b190ac294c13a4acfc0bd6441fd"
+                "reference": "aed6c9f01922db9d75e9639e8d893ac54e48f3aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/emojione/emojione-assets/zipball/76f72a30e0062b190ac294c13a4acfc0bd6441fd",
-                "reference": "76f72a30e0062b190ac294c13a4acfc0bd6441fd",
+                "url": "https://api.github.com/repos/emojione/emojione-assets/zipball/aed6c9f01922db9d75e9639e8d893ac54e48f3aa",
+                "reference": "aed6c9f01922db9d75e9639e8d893ac54e48f3aa",
                 "shasum": ""
             },
             "suggest": {
@@ -40,7 +40,7 @@
                 "smilies",
                 "unicode"
             ],
-            "time": "2017-04-18 16:14:06"
+            "time": "2017-08-08 15:44:16"
         }
     ],
     "packages-dev": [
