@@ -35,6 +35,14 @@ require_once __DIR__.'/vendor/autoload.php';
         .emoji-line:hover .emoji-btn {
             display: block;
         }
+
+        .ui-listview > li {
+            font-size: 0.75em;
+        }
+
+        .ui-listview > li h2 {
+            font-size: 16px;
+        }
     </style>
 </head>
 <body data-role="page">
@@ -63,7 +71,7 @@ require_once __DIR__.'/vendor/autoload.php';
                         <button class="ui-btn ui-btn-inline emoji-btn copy-btn"
                             data-clipboard-text="<?php echo $emojiCode; ?>">Copy</button>
                     </h2>
-                    <p><?php echo implode(', ', $emoji->keywords); ?></p>
+                    <?php echo implode(', ', $emoji->keywords); ?>
                 </li>
             <?php
             } ?>
