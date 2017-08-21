@@ -23,7 +23,8 @@ require_once __DIR__.'/vendor/autoload.php';
 
         .emoji-btn {
             position: absolute;
-                top: 50%; right: 1.15em;
+            top: 50%;
+            right: 1.15em;
             display: none;
             margin: 0;
             padding: 8px 15px;
