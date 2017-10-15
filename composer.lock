@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4c44d494a54c2d059edec5272eb7b2e9",
     "content-hash": "32362b63740636303f0cca525721c4e9",
     "packages": [
         {
@@ -40,7 +39,7 @@
                 "smilies",
                 "unicode"
             ],
-            "time": "2017-08-08 15:44:16"
+            "time": "2017-08-08T15:44:16+00:00"
         }
     ],
     "packages-dev": [
@@ -101,20 +100,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-14 15:44:48"
+            "time": "2017-06-14T15:44:48+00:00"
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v3.3.9",
+            "version": "v3.3.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "89fcb5a73e0ede2be2512234c4e40457bb22b35f"
+                "reference": "03e3693a36701f1c581dd24a6d6eea2eba2113f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/89fcb5a73e0ede2be2512234c4e40457bb22b35f",
-                "reference": "89fcb5a73e0ede2be2512234c4e40457bb22b35f",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/03e3693a36701f1c581dd24a6d6eea2eba2113f6",
+                "reference": "03e3693a36701f1c581dd24a6d6eea2eba2113f6",
                 "shasum": ""
             },
             "require": {
@@ -169,7 +168,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2017-08-27 14:52:21"
+            "time": "2017-10-02T06:42:24+00:00"
         }
     ],
     "aliases": [],
