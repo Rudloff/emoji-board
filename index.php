@@ -8,7 +8,7 @@ require_once __DIR__.'/vendor/autoload.php';
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>EmojiBoard</title>
     <link rel="stylesheet"
-        href="bower_components/jquery-mobile-bower/css/jquery.mobile-1.4.5.min.css"
+        href="node_modules/@bower_components/jquery-mobile-bower/css/jquery.mobile-1.4.5.min.css"
         />
     <link rel="icon" href="favicon.png" />
     <meta name="description" content="Simple emoji search list" />
@@ -77,9 +77,9 @@ require_once __DIR__.'/vendor/autoload.php';
             } ?>
         </ul>
     </main>
-    <script src="bower_components/jquery/jquery.min.js"></script>
-    <script src="bower_components/jquery-mobile-bower/js/jquery.mobile-1.4.5.min.js"></script>
-    <script src="bower_components/clipboard/dist/clipboard.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/@bower_components/jquery-mobile-bower/js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="node_modules/clipboard/dist/clipboard.min.js"></script>
     <script>
     /*jslint browser: true*/
     /*global Clipboard*/

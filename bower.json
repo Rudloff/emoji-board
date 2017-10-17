@@ -1,7 +1,0 @@
-{
-  "name": "emojiboard",
-  "dependencies": {
-    "jquery-mobile-bower": "~1.4.5",
-    "clipboard": "zenorocha/clipboard.js#^1.7.1"
-  }
-}
