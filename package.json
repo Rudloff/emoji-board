@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@bower_components/jquery-mobile-bower": "git://github.com/jobrapido/jquery-mobile-bower.git#~1.4.5",
+    "jquery-mobile": "~1.4.1",
     "clipboard": "~1.7.1",
     "jquery": "~2.1.0"
   },
