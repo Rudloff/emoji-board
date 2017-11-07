@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "jquery-mobile": "~1.4.1",
     "clipboard": "~1.7.1",
-    "jquery": "~2.2.0"
+    "jquery": "~2.2.0",
+    "jquery-mobile": "~1.4.1"
   },
   "license": "GPL-3.0",
   "repository": "https://github.com/Rudloff/emoji-board.git",
