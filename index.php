@@ -80,10 +80,6 @@ require_once __DIR__.'/vendor/autoload.php';
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/jquery-mobile/dist/jquery.mobile.min.js"></script>
     <script src="node_modules/clipboard/dist/clipboard.min.js"></script>
-    <script>
-    /*jslint browser: true*/
-    /*global Clipboard*/
-    new Clipboard(".copy-btn");
-    </script>
+    <script src="js/copy.js"></script>
 </body>
 </html>
