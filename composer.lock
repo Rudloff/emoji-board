@@ -4,20 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1159181e7ff6f8976c9a01d99935d3ac",
+    "hash": "4c44d494a54c2d059edec5272eb7b2e9",
+    "content-hash": "32362b63740636303f0cca525721c4e9",
     "packages": [
         {
             "name": "emojione/assets",
-            "version": "3.0.0",
+            "version": "3.1.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Ranks/emojione-assets.git",
-                "reference": "76f72a30e0062b190ac294c13a4acfc0bd6441fd"
+                "url": "https://github.com/emojione/emojione-assets.git",
+                "reference": "aed6c9f01922db9d75e9639e8d893ac54e48f3aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ranks/emojione-assets/zipball/76f72a30e0062b190ac294c13a4acfc0bd6441fd",
-                "reference": "76f72a30e0062b190ac294c13a4acfc0bd6441fd",
+                "url": "https://api.github.com/repos/emojione/emojione-assets/zipball/aed6c9f01922db9d75e9639e8d893ac54e48f3aa",
+                "reference": "aed6c9f01922db9d75e9639e8d893ac54e48f3aa",
                 "shasum": ""
             },
             "suggest": {
@@ -39,22 +40,22 @@
                 "smilies",
                 "unicode"
             ],
-            "time": "2017-04-18T16:14:06+00:00"
+            "time": "2017-08-08 15:44:16"
         }
     ],
     "packages-dev": [
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.4.0",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "f29dca382a6485c3cbe6379f0c61230167681937"
+                "reference": "2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/f29dca382a6485c3cbe6379f0c61230167681937",
-                "reference": "f29dca382a6485c3cbe6379f0c61230167681937",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296",
+                "reference": "2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296",
                 "shasum": ""
             },
             "require": {
@@ -66,7 +67,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.6-dev"
                 }
             },
             "autoload": {
@@ -100,24 +101,24 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09T14:24:12+00:00"
+            "time": "2017-10-11 12:05:26"
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v3.3.2",
+            "version": "v3.3.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "347c4247a3e40018810b476fcd5dec36d46d08dc"
+                "reference": "805de6bd6869073e60610df1b14ab7d969c61b01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/347c4247a3e40018810b476fcd5dec36d46d08dc",
-                "reference": "347c4247a3e40018810b476fcd5dec36d46d08dc",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/805de6bd6869073e60610df1b14ab7d969c61b01",
+                "reference": "805de6bd6869073e60610df1b14ab7d969c61b01",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.9",
+                "php": "^5.5.9|>=7.0.8",
                 "symfony/polyfill-mbstring": "~1.0"
             },
             "conflict": {
@@ -168,7 +169,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2017-06-02T09:10:29+00:00"
+            "time": "2017-11-07 14:16:22"
         }
     ],
     "aliases": [],

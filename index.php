@@ -8,7 +8,7 @@ require_once __DIR__.'/vendor/autoload.php';
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>EmojiBoard</title>
     <link rel="stylesheet"
-        href="bower_components/jquery-mobile-bower/css/jquery.mobile-1.4.5.min.css"
+        href="node_modules/jquery-mobile/dist/jquery.mobile.min.css"
         />
     <link rel="icon" href="favicon.png" />
     <meta name="description" content="Simple emoji search list" />
@@ -23,7 +23,8 @@ require_once __DIR__.'/vendor/autoload.php';
 
         .emoji-btn {
             position: absolute;
-                top: 50%; right: 1.15em;
+            top: 50%;
+            right: 1.15em;
             display: none;
             margin: 0;
             padding: 8px 15px;
@@ -34,7 +35,19 @@ require_once __DIR__.'/vendor/autoload.php';
         .emoji-line:hover .emoji-btn {
             display: block;
         }
+
+        .ui-listview > li {
+            font-size: 0.75em;
+        }
+
+        .ui-listview > li h2 {
+            font-size: 16px;
+        }
     </style>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/jquery-mobile/dist/jquery.mobile.min.js"></script>
+    <script src="node_modules/clipboard/dist/clipboard.min.js"></script>
+    <script src="js/copy.js"></script>
 </head>
 <body data-role="page">
     <header data-role="header">
@@ -62,15 +75,11 @@ require_once __DIR__.'/vendor/autoload.php';
                         <button class="ui-btn ui-btn-inline emoji-btn copy-btn"
                             data-clipboard-text="<?php echo $emojiCode; ?>">Copy</button>
                     </h2>
-                    <p><?php echo implode(', ', $emoji->keywords); ?></p>
+                    <?php echo implode(', ', $emoji->keywords); ?>
                 </li>
             <?php
             } ?>
         </ul>
     </main>
-    <script src="bower_components/jquery/jquery.min.js"></script>
-    <script src="bower_components/jquery-mobile-bower/js/jquery.mobile-1.4.5.min.js"></script>
-    <script src="bower_components/clipboard/dist/clipboard.min.js"></script>
-    <script src="js/copy.js"></script>
 </body>
 </html>
