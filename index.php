@@ -54,7 +54,7 @@ require_once __DIR__.'/vendor/autoload.php';
         <h1>EmojiBoard</h1>
         <a data-mini="true" class="ui-btn-right ui-btn"
             href="https://github.com/Rudloff/emoji-board"
-            title="EmojiBoard on GitHub" target="_blank">Get the code</a>
+            title="EmojiBoard on GitHub" target="_blank" rel="noopener">Get the code</a>
     </header>
     <main data-role="content">
         <ul data-role="listview" data-filter="true">
