@@ -44,10 +44,10 @@ require_once __DIR__.'/vendor/autoload.php';
             font-size: 16px;
         }
     </style>
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/jquery-mobile/dist/jquery.mobile.min.js"></script>
-    <script src="node_modules/clipboard/dist/clipboard.min.js"></script>
-    <script src="js/copy.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js" defer></script>
+    <script src="node_modules/jquery-mobile/dist/jquery.mobile.min.js" defer></script>
+    <script src="node_modules/clipboard/dist/clipboard.min.js" defer></script>
+    <script src="js/copy.js" async></script>
 </head>
 <body data-role="page">
     <header data-role="header">
