@@ -1,5 +1,6 @@
 {
   "name": "EmojiBoard",
+  "short_name": "EmojiBoard",
   "display": "standalone",
   "icons": [
     {
