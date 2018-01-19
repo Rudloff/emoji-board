@@ -3,7 +3,8 @@
     "emojione/assets": "~3.1.0"
   },
   "require-dev": {
-    "symfony/var-dumper": "~3.3.0"
+    "symfony/var-dumper": "~3.3.0",
+    "squizlabs/php_codesniffer": "~3.2.2"
   },
   "name": "rudloff/emoji-board",
   "license": "GPL-3.0",
