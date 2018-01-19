@@ -5,4 +5,6 @@ function initClipboard() {
     new Clipboard(".copy-btn");
 }
 
-window.addEventListener("load", initClipboard, false);
+if (typeof window === "object") {
+    window.addEventListener("load", initClipboard, false);
+}
