@@ -6,7 +6,7 @@
     "symfony/var-dumper": "~3.3.0"
   },
   "name": "rudloff/emoji-board",
-  "license": "GPL-3.0",
+  "license": "GPL-3.0-only",
   "description": "Simple emoji search list",
   "homepage": "https://emoji.netlib.re/",
   "type": "project",
