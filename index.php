@@ -63,22 +63,19 @@ require_once __DIR__.'/vendor/autoload.php';
                 file_get_contents(__DIR__.'/vendor/emojione/assets/emoji.json')
             );
             foreach ($emojis as $emoji) {
+                //Don't indent the HTML at all because the output is really big.
                 $emojiCode = '&#x'.str_replace(
                     '-',
                     ';&#x',
                     $emoji->code_points->output
-                ).';'; ?>
-                <li class="emoji-line">
-                    <h2>
-                        <span class="emoji"><?php echo $emojiCode; ?></span>
-                        <?php echo $emoji->name; ?>
-                        <button class="ui-btn ui-btn-inline emoji-btn copy-btn"
-                            data-clipboard-text="<?php echo $emojiCode; ?>">Copy</button>
-                    </h2>
-                    <?php echo implode(', ', $emoji->keywords); ?>
-                </li>
-            <?php
-            } ?>
+                ).';'; ?><li class="emoji-line"><h2><span class="emoji"><?php
+    echo $emojiCode; ?></span> <?php
+    echo $emoji->name; ?> <button class="ui-btn ui-btn-inline emoji-btn copy-btn" data-clipboard-text="<?php
+    echo $emojiCode; ?>">Copy</button></h2> <?php
+    echo implode(', ', $emoji->keywords); ?></li>
+<?php
+            }
+            ?>
         </ul>
     </main>
 </body>
