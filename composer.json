@@ -7,7 +7,7 @@
     "squizlabs/php_codesniffer": "~3.2.2"
   },
   "name": "rudloff/emoji-board",
-  "license": "GPL-3.0",
+  "license": "GPL-3.0-only",
   "description": "Simple emoji search list",
   "homepage": "https://emoji.netlib.re/",
   "type": "project",
