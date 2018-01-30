@@ -11,6 +11,7 @@ require_once __DIR__.'/vendor/autoload.php';
         href="node_modules/jquery-mobile/dist/jquery.mobile.min.css"
         />
     <link rel="icon" href="favicon.png" />
+    <link rel="canonical" href="https://emoji.netlib.re/" />
     <meta name="description" content="Simple emoji search list" />
     <meta name="theme-color" content="#E9E9E9">
     <link rel="manifest" href="manifest.json" />
