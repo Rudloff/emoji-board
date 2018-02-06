@@ -13,7 +13,7 @@ require_once __DIR__.'/vendor/autoload.php';
     <link rel="icon" href="favicon.png" />
     <link rel="canonical" href="https://emoji.netlib.re/" />
     <meta name="description" content="Simple emoji search list" />
-    <meta name="theme-color" content="#E9E9E9">
+    <meta name="theme-color" content="#E9E9E9" />
     <link rel="manifest" href="manifest.json" />
     <style>
         .emoji {
