@@ -5,8 +5,5 @@
     "jquery-mobile": "~1.4.1"
   },
   "license": "GPL-3.0",
-  "repository": "https://github.com/Rudloff/emoji-board.git",
-  "engines": {
-    "yarn": ">= 1.0.0"
-  }
+  "repository": "https://github.com/Rudloff/emoji-board.git"
 }
