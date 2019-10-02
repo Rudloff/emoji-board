@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "da957b00933e15e567037a158628b456",
+    "content-hash": "ded059580fd178a0a9b1167046c477e0",
     "packages": [
         {
             "name": "emojione/assets",
-            "version": "4.0.1",
+            "version": "4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/emojione/emojione-assets.git",
-                "reference": "4eb644415b121bc94d3713bf4cc16f15bc3980eb"
+                "reference": "88478c659a64af0176c7b0cd0778f1f9cb8f916f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/emojione/emojione-assets/zipball/4eb644415b121bc94d3713bf4cc16f15bc3980eb",
-                "reference": "4eb644415b121bc94d3713bf4cc16f15bc3980eb",
+                "url": "https://api.github.com/repos/emojione/emojione-assets/zipball/88478c659a64af0176c7b0cd0778f1f9cb8f916f",
+                "reference": "88478c659a64af0176c7b0cd0778f1f9cb8f916f",
                 "shasum": ""
             },
             "suggest": {
@@ -39,7 +39,7 @@
                 "smilies",
                 "unicode"
             ],
-            "time": "2018-09-10T18:13:39+00:00"
+            "time": "2019-01-23T22:10:07+00:00"
         }
     ],
     "packages-dev": [
