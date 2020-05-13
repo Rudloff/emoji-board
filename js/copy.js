@@ -1,4 +1,5 @@
 /*jslint browser: true*/
+
 /*global Clipboard, window*/
 function initClipboard() {
     "use strict";

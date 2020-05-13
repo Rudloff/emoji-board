@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ded059580fd178a0a9b1167046c477e0",
+    "content-hash": "151b14fe6eb0e4b4e80437e148088557",
     "packages": [
         {
             "name": "emojione/assets",
@@ -39,6 +39,7 @@
                 "smilies",
                 "unicode"
             ],
+            "abandoned": true,
             "time": "2019-01-23T22:10:07+00:00"
         }
     ],
@@ -227,6 +228,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-json": "*"
+    },
     "platform-dev": []
 }
