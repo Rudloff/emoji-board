@@ -61,14 +61,14 @@ require_once __DIR__.'/vendor/autoload.php';
         <ul data-role="listview" data-filter="true">
             <?php
             $emojis = json_decode(
-                file_get_contents(__DIR__.'/vendor/emojione/assets/emoji.json')
+                file_get_contents(__DIR__.'/vendor/joypixels/assets/emoji.json')
             );
             foreach ($emojis as $emoji) {
                 //Don't indent the HTML at all because the output is really big.
                 $emojiCode = '&#x'.str_replace(
                     '-',
                     ';&#x',
-                    $emoji->code_points->output
+                    $emoji->code_points->fully_qualified
                 ).';'; ?><li class="emoji-line"><h2><span class="emoji"><?php
     echo $emojiCode; ?></span> <?php
     echo $emoji->name; ?> <button class="ui-btn ui-btn-inline emoji-btn copy-btn" data-clipboard-text="<?php

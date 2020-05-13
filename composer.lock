@@ -4,33 +4,34 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "151b14fe6eb0e4b4e80437e148088557",
+    "content-hash": "899061f05f30e2f9b85a0829417d7524",
     "packages": [
         {
-            "name": "emojione/assets",
-            "version": "4.5",
+            "name": "joypixels/assets",
+            "version": "v5.5.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/emojione/emojione-assets.git",
-                "reference": "88478c659a64af0176c7b0cd0778f1f9cb8f916f"
+                "url": "https://github.com/joypixels/emoji-assets.git",
+                "reference": "4467e2c614dd8234dbdf896f81d4598577840b60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/emojione/emojione-assets/zipball/88478c659a64af0176c7b0cd0778f1f9cb8f916f",
-                "reference": "88478c659a64af0176c7b0cd0778f1f9cb8f916f",
+                "url": "https://api.github.com/repos/joypixels/emoji-assets/zipball/4467e2c614dd8234dbdf896f81d4598577840b60",
+                "reference": "4467e2c614dd8234dbdf896f81d4598577840b60",
                 "shasum": ""
             },
             "suggest": {
-                "emojione/emojione": "A set of libraries to make using emoji on your websites easier."
+                "joypixels/emoji-toolkit": "A set of libraries to make using emoji on your websites easier."
             },
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "proprietary"
             ],
-            "description": "Emojis in png format brought to you by EmojiOne. EmojiOne is a complete set of emojis designed for the web.",
-            "homepage": "https://www.emojione.com",
+            "description": "Emoji in png format brought to you by JoyPixels. JoyPixels is a complete set of emojis designed for the web.",
+            "homepage": "https://www.joypixels.com",
             "keywords": [
+                "JoyPixels",
                 "emoji",
                 "emojione",
                 "emojis",
@@ -39,8 +40,7 @@
                 "smilies",
                 "unicode"
             ],
-            "abandoned": true,
-            "time": "2019-01-23T22:10:07+00:00"
+            "time": "2020-02-13T00:35:11+00:00"
         }
     ],
     "packages-dev": [
